@@ -1,0 +1,1 @@
+print(sum(len(s[:-1]) - len(eval(s)) for s in open('input.txt')))
